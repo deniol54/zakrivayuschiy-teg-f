@@ -12,3 +12,47 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes button_disable {
+  from {
+    opacity: 1;
+  }
+
+  to{
+    opacity: 0.6;
+  }
+}
+
+@keyframes button_theme_underline {
+  from {
+      transform: scaleX(0);
+  }
+
+  to {
+      transform: scaleX(1);
+  }
+}
+
+@keyframes right_to_left_moving {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(4px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes move {
+  from {
+    translate: -100% 0%;
+  }
+
+  to {
+    translate: 0% 0%;
+  }
+}

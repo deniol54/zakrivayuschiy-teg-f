@@ -12,6 +12,8 @@
   --background-gradient-color-begin: #007f0c;
   --background-gradient-color-end: #004306;
   --gradient-color: #000;
+  --accent-color: #00CC14;
+  --heart-color: #FF0000;
 }
 
 :root.theme-light {
@@ -21,6 +23,8 @@
   --background-gradient-color-begin: #E7E7E7;
   --background-gradient-color-end: #1A1A1A;
   --gradient-color: #d3d3d3;
+  --accent-color: #fff;
+  --heart-color: #FF0000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,5 +35,7 @@
     --background-gradient-color-begin: #007f0c;
     --background-gradient-color-end: #004306;
     --gradient-color: #000;
+    --accent-color: #00CC14;
+    --heart-color: #FF0000;
   }
 }
