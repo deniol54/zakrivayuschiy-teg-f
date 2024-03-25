@@ -379,6 +379,7 @@
 }
 
 .dialog {
+  inline-size: 357px;
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-template-rows: 1fr min-content;
@@ -413,6 +414,11 @@
   text-transform: uppercase;
 }
 
+.dialog form {
+  display: grid;
+  grid-column: span 2;
+}
+
 .dialog-button {
   block-size: 38px;
   border: 2px solid var(--text-color);
@@ -425,7 +431,7 @@
 }
 
 .filter_grayscale {
-  filter: grayscale(0.5);
+  filter: grayscale(0.8);
 }
 
 .filter_brightness {
@@ -453,7 +459,6 @@
 }
 
 @media (width <= 376px) {
-
   .image-label {
     right: 11px;
   }
@@ -462,5 +467,9 @@
     inline-size: 306px;
     block-size: 80px; 
     flex-direction: column;
+  }
+
+  .dialog {
+    inline-size: none;
   }
 }
