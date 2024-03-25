@@ -451,7 +451,7 @@
 }
 
 .filter_saturate {
-  filter: saturate(150%);
+  filter: saturate(150%) opacity(1);
 }
 
 .filter_sepia {
