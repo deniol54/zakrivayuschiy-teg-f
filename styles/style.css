@@ -109,7 +109,6 @@
 .theme-menu__button:disabled {
   opacity: 0.6;
   pointer-events: none;
-  opacity: 0.6;
   transition: opacity 0.3s ease;
   margin-inline-start: 0;
 }
