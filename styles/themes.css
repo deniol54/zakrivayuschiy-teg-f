@@ -33,7 +33,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --font-weight-bold: 800;
+    --font-weight-bold: 785;
     --font-weight-normal: 465;
     --font-weight-const: 400;
     --text-color: #00CC14;
