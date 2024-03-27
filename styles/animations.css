@@ -13,14 +13,14 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-@keyframes right_to_left_moving { 
-  0% { 
-    transform: translateX(0); 
-  } 
-  100% { 
-    transform: translateX(4px); 
-  } 
-} 
+@keyframes right_to_left_moving {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(4px);
+  }
+}
 
 @keyframes scaling_heart {
   0% {
